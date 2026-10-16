@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            position: relative;
+            height: 500px;
+            width: 500px;
+            margin-left: 600px;
+        }
+        .child{
+            display: inline-block;
+            position: absolute;
+            animation-name: ani;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 1s;
+            height: 50px;
+            width: 20px;
+            bottom: 0px;
+            background-color: blue;
+        }
+        @keyframes ani{
+            from{
+                height: 30px;
+            }
+            to{
+                height: 400px;
+            }
+        }
+        .a {
+            animation-delay: 0.5s;
+            left: 20px;
+            background-color: blueviolet;
+        }
+        .b {
+            animation-delay: 0.6s;
+            left: 50px;
+            background-color: palevioletred;
+        }
+        .c {
+            animation-delay: 0.3s;
+            left: 80px;
+            background-color: blueviolet;
+        }
+        .d {
+            animation-delay: 0.1s;
+            left: 120px;
+            background-color: blue;
+        }
+        .e {
+            animation-delay: 0.6s;
+            left: 150px;
+            background-color: blueviolet;
+        }
+        .f {
+            animation-delay: 0.4s;
+            left: 180px;
+            background-color: palevioletred;
+        }
+        .g {
+            animation-delay: 0.3s;
+            left: 210px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="child a"></div>
+    <div class="child b"></div>
+    <div class="child c"></div>
+    <div class="child d"></div>
+    <div class="child e"></div>
+    <div class="child f"></div>
+    <div class="child g"></div>
+</div>
+</body>
+</html> 
