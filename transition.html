@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child,.t,.p,.j{
+            display: none;
+        }
+        .sub1:hover .child{
+            display: block;
+            position:absolute;
+        }
+        .sub2:hover .t{
+            display: block;
+            position: absolute;
+        }
+        .sub3:hover .p{
+            display:block;
+            position: absolute;
+        }
+        .sub4:hover .j{
+            display: block;
+            position: absolute;
+        }
+        .sub1,.sub2,.sub3,.sub4{
+            display: inline-block;
+            margin: 30px;
+        }
+        .sub1{
+            padding-left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="sub1">
+            Courses
+            <div class="child">
+                <p>DSA/Placements</p>
+                <p>DA / Data Science & AI</p>
+                <p>Development</p>
+                <p>DevOps Course</p>
+                <p>GATE Prep</p>
+                <p>All Courses</p>
+            </div>
+        </div>
+        <div class="sub2">
+            Tutorials
+            <div class="t">
+                <p>Python</p>
+                <p>Java</p>
+                <p>DSA</p>
+                <p>ML/Data Science</p>
+                <p>GATE</p>
+                <p>DevOps</p>
+            </div>
+        </div>
+        <div class="sub3">
+            Practice
+            <div class="p">
+                <p>Earn Google Badge</p>
+                <p>Practice Coding Problems</p>
+                <p>Problem of the Day</p>
+                <p>Connect 1:1 with Experts</p>
+            </div>
+        </div>
+        <div class="sub4">
+            Jobs
+            <div class="j">
+                <p>Apply Now</p>
+                <p>Post Jobs</p>
+                <p>Jobs Updates</p>
+                <p>Share Interview Experience</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
