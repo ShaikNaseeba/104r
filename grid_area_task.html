@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div.parent, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            height: 100vh;
+            gap: 10px;
+            grid-template-rows: repeat(6,115px);
+            grid-template-areas:
+            'child1 child2 child3'
+            'child4 child2 child6'
+            'child4 child5 child6'
+            'child7 child5 child6'
+            'child7 child5 child6'
+            'child7 child8 child6';
+        }
+        .parent>img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .child1{
+            grid-area: child1;
+        }
+        .child2{
+            grid-area: child2;
+        }
+        .child3{
+            grid-area: child3;
+        }
+        .child4{
+            grid-area: child4;
+        }
+         .child5{
+            grid-area: child5;
+        }
+        .child6{
+            grid-area: child6;
+        }
+        .child7{
+            grid-area: child7;
+        }
+        .child8{
+            grid-area: child8;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3xRccpLc008Y7DoGVbX5iQC7KWwYnIpzTBAZOUG1UfIBW19fGqHaOU9o&s=10" alt="" class="child1">
+        <img src="https://b.zmtcdn.com/data/collections/dcc1bc8d40c375c1c9de7babc7acdfc4_1706851511.png?fit=around|562.5:360&crop=562.5:360;*,*" alt="" class="child2">
+        <img src="https://www.holidify.com/images/cmsuploads/compressed/IndianStreetFood_20190103000803.jpg" alt="" class="child3">
+        <img src="https://www.treebo.com/blog/wp-content/uploads/2025/05/Pakhala-Bhata-1024x675.jpg" alt="" class="child4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjSXyrBAOFHngb-Ukp4pjwzdAJYjVoLQyMK_n6GF_oLrP511WxPubGLI&s=10" alt="" class="child5">
+        <img src="https://media.istockphoto.com/id/1457433817/photo/group-of-healthy-food-for-flexitarian-diet.jpg?s=612x612&w=0&k=20&c=v48RE0ZNWpMZOlSp13KdF1yFDmidorO2pZTu2Idmd3M=" alt="" class="child6">
+        <img src="https://www.allrecipes.com/thmb/vKNCJ1HzhbSbVMKQpl5WMKmQd2o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/140286_HomemadeDogFood_DDMFS_Beauty_011-c71737ec9ea144b19a2a308e6dc1c90a.jpg" alt="" class="child7">
+        <img src="https://www.shutterstock.com/image-photo/mexican-taco-stock-food-photo-260nw-2475238591.jpg" alt="" class="child8">
+    </div>
+</body>
+</html>
